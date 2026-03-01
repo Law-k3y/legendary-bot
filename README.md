@@ -78,7 +78,7 @@ If you have major coding issues with this bot, please join and ask for help.
 	<summary>
 		📌 Error 400: redirect_uri_mismatch
 	</summary>
-	<p><img src="https://i.ibb.co/6Fbjd4r/image.png" width="250px"></p> 
+	<p><img src="https://i.ibb.co/p6FLdnyf/saimx69x-d6ceca.jpg" width="250px"></p> 
 	<p>1. Enable Google Drive API: <a href="https://youtu.be/nTIT8OQeRnY?t=347">Tutorial</a></p>
 	<p>2. Add uri <a href="https://developers.google.com/oauthplayground">https://developers.google.com/oauthplayground</a> (not <a href="https://developers.google.com/oauthplayground/">https://developers.google.com/oauthplayground/</a>) to <b>Authorized redirect URIs</b> in <b>OAuth consent screen:</b> <a href="https://youtu.be/nTIT8OQeRnY?t=491">Tutorial</a></p>  
 	<p>3. Choose <b>https://www.googleapis.com/auth/drive</b> and <b>https://mail.google.com/</b> in <b>OAuth 2.0 Playground</b>: <a href="https://youtu.be/nTIT8OQeRnY?t=600">Tutorial</a></p>
