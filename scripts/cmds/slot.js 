@@ -1,0 +1,65 @@
+const fs = require("fs");
+
+module.exports = {
+  config: {
+    name: "slot",
+    version: "1.0",
+    author: "lonely",
+    countDown: 5,
+    role: 0,
+    shortDescription: "Slot game",
+    longDescription: "Gamble your money in slot machine",
+    category: "game"
+  },
+
+  onStart: async function ({ message, event, usersData }) {
+    const userId = event.senderID;
+
+    // Get user data
+    let userData = await usersData.get(userId);
+    if (!userData.money) userData.money = 1000;
+
+    const bet = parseInt(event.args[0]);
+
+    if (!bet || bet <= 0) {
+      return message.reply("❌ Enter a valid bet amount.");
+    }
+
+    if (bet > userData.money) {
+      return message.reply("❌ You don't have enough money.");
+    }
+
+    const slots = ["🍒", "🍋", "🍉", "🍇", "⭐", "💎"];
+
+    const spin = [
+      slots[Math.floor(Math.random() * slots.length)],
+      slots[Math.floor(Math.random() * slots.length)],
+      slots[Math.floor(Math.random() * slots.length)]
+    ];
+
+    let reward = 0;
+    let resultText = "";
+
+    if (spin[0] === spin[1] && spin[1] === spin[2]) {
+      reward = bet * 5;
+      resultText = "🎉 JACKPOT!";
+    } else if (spin[0] === spin[1] || spin[1] === spin[2] || spin[0] === spin[2]) {
+      reward = bet * 2;
+      resultText = "✨ You won!";
+    } else {
+      reward = -bet;
+      resultText = "💀 You lost!";
+    }
+
+    userData.money += reward;
+    await usersData.set(userId, userData);
+
+    return message.reply(
+      `🎰 SLOT MACHINE 🎰\n\n` +
+      `| ${spin[0]} | ${spin[1]} | ${spin[2]} |\n\n` +
+      `${resultText}\n` +
+      `💰 ${reward > 0 ? "+" : ""}${reward}\n` +
+      `💳 Balance: ${userData.money}`
+    );
+  }
+};
