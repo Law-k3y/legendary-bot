@@ -66,7 +66,7 @@ version.tooOldVersion=You are using a too old version of Goat-Bot, please update
 custom.refreshedFb_dtsg=Refreshed fb_dtsg and jazoest successfully
 custom.refreshedFb_dtsgError=An error occurred when refreshing fb_dtsg and jazoest
 
-# bot/login/loadData.js
+# botl
 loadData.loadThreadDataSuccess=Loaded %1 group's data successfully!
 loadData.loadUserDataSuccess=Loaded %1 user's data successfully!
 loadData.refreshingThreadData=Updating the information of the groups...
@@ -88,18 +88,18 @@ handlerCheckData.cantCreateThread=Groups with id '%1' cannot be written to the d
 handlerCheckData.cantCreateUser=Users with id '%1' cannot be written to the database!
 
 # bot/handler/handlerEvents.js
-handlerEvents.userBanned=💙 𝗔𝗖𝗖𝗘𝗦𝗦 ᏞᏫᏁᎬᏞᎽ! \n ━━━━━━━━━━\n ❝ 𝚈𝚘𝚞 𝚊𝚛𝚎 𝙱𝚕𝚘𝚌𝚔𝚎𝚍, 𝚝𝚑𝚒𝚜 𝚜𝚒𝚖𝚙𝚕𝚢 𝚖𝚎𝚊𝚗𝚜 𝚝𝚑𝚊𝚝 𝚢𝚘𝚞 𝚌𝚊𝚗'𝚝 𝚞𝚜𝚎 𝚋𝚘𝚝 𝚌𝚊𝚞𝚜𝚎 𝚢𝚘𝚞'𝚛𝚎 𝚋𝚊𝚗𝚗𝚎𝚍. ❞\n ━━━━━━━━━━
-handlerEvents.threadBanned=💙 𝗡𝗢𝗧 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗\n ━━━━━━━━━━\n ❝ 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 𝚒𝚜 𝙱𝚕𝚘𝚌𝚔𝚎𝚍, 𝚝𝚑𝚒𝚜 𝚜𝚒𝚖𝚙𝚕𝚢 𝚖𝚎𝚊𝚗𝚜 𝚝𝚑𝚊𝚝 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚌𝚊𝚗'𝚝 𝚞𝚜𝚎 𝚋𝚘𝚝 𝚌𝚊𝚞𝚜𝚎 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚒𝚜 𝚋𝚊𝚗𝚗𝚎𝚍. ❞\n ━━━━━━━━━━
-handlerEvents.maintainceMode= 🌀 | 𝗠𝗔𝗜𝗡𝗧𝗔𝗜𝗡 𝗠𝗢𝗗𝗘\n    ━━━━━━━━━━━━━\n𝚂𝚘𝚛𝚛𝚢 𝚋𝚞𝚝 𝚝𝚑𝚎 𝚋𝚘𝚝 𝚒𝚜 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚘𝚗 𝚖𝚊𝚒𝚗𝚝𝚎𝚗𝚊𝚗𝚌𝚎 𝚖𝚘𝚍𝚎, 𝚠𝚑𝚊𝚝 𝚝𝚑𝚒𝚜 𝚖𝚎𝚊𝚗𝚜 𝚒𝚜 𝚝𝚑𝚊𝚝 𝚢𝚘𝚞 𝚌𝚊𝚗𝚗𝚘𝚝 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚋𝚘𝚝 𝚝𝚘 𝚊𝚟𝚘𝚒𝚍 𝚛𝚒𝚜𝚔 𝚘𝚏 𝚝𝚑𝚎 𝚊𝚌𝚌𝚘𝚞𝚗𝚝 𝚐𝚎𝚝𝚝𝚒𝚗𝚐 𝚕𝚘𝚌𝚔𝚎𝚍.\n     ━━━━━━━━━━━━━\n          ```````````````````\n          ᏞᏫᏁᎬᏞᎽ.\n\n         ````````````````````
-handlerEvents.onlyAdminBox=💙 𝗔𝗖𝗖𝗘𝗦𝗦 ᏞᏫᏁᎬᏞᎽ!\n ━━━━━━━━━━\n ❝ 𝙲𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚗𝚘 𝚘𝚗𝚎 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚘𝚗𝚕𝚢 𝚐𝚛𝚘𝚞𝚙 𝚊𝚍𝚖𝚒𝚗 𝚌𝚊𝚗 𝚞𝚜𝚎 ❞\n━━━━━━━━━━
-handlerEvents.onlyAdminBot=💙 𝗔𝗖𝗖𝗘𝗦𝗦 ᏞᏫᏁᎬᏞᎽ!\n ━━━━━━━━━━\n ❝ 𝙲𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚗𝚘 𝚘𝚗𝚎 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚘𝚗𝚕𝚢 𝚊𝚍𝚖𝚒𝚗 𝚌𝚊𝚗 𝚞𝚜𝚎 ❞\n ━━━━━━━━━━
-handlerEvents.commandNotFound=💙 ƏŘŘºŘ 🪽\n ━━━━━━━━━━\n❝ Command ❛ %1 ❜ does not exist in ᏞᏫᏁᎬᏞᎽ system, so type %2help to see more cmds. ❞\n ━━━━━━━━━━
-handlerEvents.commandNotFound2=💙 𝗡𝗢𝗧 𝗘𝗫𝗜𝗦𝗧\n ━━━━━━━━━━\n❝ Command ❛ %1 ❜ does not exist in ᏞᏫᏁᎬᏞᎽ system, so type %1help to see more cmds. ❞\n━━━━━━━━━━
+handlerEvents.userBanned=💙 𝗔𝗖𝗖𝗘𝗦𝗦 Ꮮawkey! \n ━━━━━━━━━━\n ❝ 𝚈𝚘𝚞 𝚊𝚛𝚎 𝙱𝚕𝚘𝚌𝚔𝚎𝚍, 𝚝𝚑𝚒𝚜 𝚜𝚒𝚖𝚙𝚕𝚢 𝚖𝚎𝚊𝚗𝚜 𝚝𝚑𝚊𝚝 𝚢𝚘𝚞 𝚌𝚊𝚗'𝚝 𝚞𝚜𝚎 𝚋𝚘𝚝 𝚌𝚊𝚞𝚜𝚎 𝚢𝚘𝚞'𝚛𝚎 𝚋𝚊𝚗𝚗𝚎𝚍. ❞\n ━━━━━━━━━━
+handlerEvents.threadBanned=💙 𝗡𝗢𝗧 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗...Ꮮawkey\n ━━━━━━━━━━\n ❝ 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 𝚒𝚜 𝙱𝚕𝚘𝚌𝚔𝚎𝚍, 𝚝𝚑𝚒𝚜 𝚜𝚒𝚖𝚙𝚕𝚢 𝚖𝚎𝚊𝚗𝚜 𝚝𝚑𝚊𝚝 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚌𝚊𝚗'𝚝 𝚞𝚜𝚎 𝚋𝚘𝚝 𝚌𝚊𝚞𝚜𝚎 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙 𝚒𝚜 𝚋𝚊𝚗𝚗𝚎𝚍. ❞\n ━━━━━━━━━━
+handlerEvents.maintainceMode= 🌀Ꮮawkey | 𝗠𝗔𝗜𝗡𝗧𝗔𝗜𝗡 𝗠𝗢𝗗𝗘\n    ━━━━━━━━━━━━━\n𝚂𝚘𝚛𝚛𝚢 𝚋𝚞𝚝 𝚝𝚑𝚎 𝚋𝚘𝚝 𝚒𝚜 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚘𝚗 𝚖𝚊𝚒𝚗𝚝𝚎𝚗𝚊𝚗𝚌𝚎 𝚖𝚘𝚍𝚎, 𝚠𝚑𝚊𝚝 𝚝𝚑𝚒𝚜 𝚖𝚎𝚊𝚗𝚜 𝚒𝚜 𝚝𝚑𝚊𝚝 𝚢𝚘𝚞 𝚌𝚊𝚗𝚗𝚘𝚝 𝚞𝚜𝚎 𝚝𝚑𝚒𝚜 𝚋𝚘𝚝 𝚝𝚘 𝚊𝚟𝚘𝚒𝚍 𝚛𝚒𝚜𝚔 𝚘𝚏 𝚝𝚑𝚎 𝚊𝚌𝚌𝚘𝚞𝚗𝚝 𝚐𝚎𝚝𝚝𝚒𝚗𝚐 𝚕𝚘𝚌𝚔𝚎𝚍.\n     ━━━━━━━━━━━━━\n          ```````````````````\n          Ꮮawkey.\n\n         ````````````````````
+handlerEvents.onlyAdminBox=💙 𝗔𝗖𝗖𝗘𝗦𝗦 Ꮮawkey!\n ━━━━━━━━━━\n ❝ 𝙲𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚗𝚘 𝚘𝚗𝚎 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚘𝚗𝚕𝚢 𝚐𝚛𝚘𝚞𝚙 𝚊𝚍𝚖𝚒𝚗 𝚌𝚊𝚗 𝚞𝚜𝚎 ❞\n━━━━━━━━━━
+handlerEvents.onlyAdminBot=💙 𝗔𝗖𝗖𝗘𝗦𝗦 Ꮮawkey!\n ━━━━━━━━━━\n ❝ 𝙲𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚗𝚘 𝚘𝚗𝚎 𝚌𝚊𝚗 𝚞𝚜𝚎 𝚘𝚗𝚕𝚢 𝚊𝚍𝚖𝚒𝚗 𝚌𝚊𝚗 𝚞𝚜𝚎 ❞\n ━━━━━━━━━━
+handlerEvents.commandNotFound=💙 ƏŘŘºŘ 🪽\n ━━━━━━━━━━\n❝ Command ❛ %1 ❜ does not exist in Ꮮawkey system, so type %2help to see more cmds. ❞\n ━━━━━━━━━━
+handlerEvents.commandNotFound2=💙 𝗡𝗢𝗧 𝗘𝗫𝗜𝗦𝗧\n ━━━━━━━━━━\n❝ Command ❛ %1 ❜ does not exist in Ꮮawkey system, so type %1help to see more cmds. ❞\n━━━━━━━━━━
 handlerEvents.commandSyntaxError=💙 𝗡𝗢𝗧 𝗘𝗫𝗜𝗦𝗧\n ━━━━━━━━━━\n❝ 𝙷𝚎𝚕𝚕𝚘, 𝚢𝚘𝚞 𝚊𝚛𝚎 𝚗𝚘𝚝 𝚞𝚜𝚒𝚗𝚐 𝚝𝚑𝚒𝚜 𝚌𝚖𝚍 𝚝𝚑𝚎 𝚁𝚒𝚐𝚑𝚝 𝚠𝚊𝚢, 𝚝𝚢𝚙𝚎 %1𝚑𝚎𝚕𝚙 %2 𝚝𝚘 𝚜𝚎𝚎 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎. ❞\n ━━━━━━━━━━
 handlerEvents.onlyAdmin=💙 𝗡𝗢𝗧 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗\n ━━━━━━━━━━\n ❝ 𝚃𝚑𝚎 𝙲𝚖𝚍 𝚢𝚘𝚞 𝚓𝚞𝚜𝚝 𝚞𝚜𝚎𝚍 𝚒𝚜 𝚏𝚘𝚛 𝚐𝚛𝚘𝚞𝚙 𝚊𝚍𝚖𝚒𝚗 ❞\n ━━━━━━━━━━
 handlerEvents.onlyAdminToUseOnReply=💙 𝗡𝗢𝗧 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗\n ━━━━━━━━━━\n ❝ 𝚈𝚘𝚞 𝚊𝚛𝚎 𝚗𝚘𝚝 𝚊𝚞𝚝𝚑𝚘𝚛𝚒𝚣𝚎𝚍 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚛𝚎𝚙𝚕𝚢 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚘𝚏 𝚝𝚑𝚎 𝚌𝚖𝚍 %1.❞\n ━━━━━━━━━━
 handlerEvents.onlyAdminToUseOnReaction=💙 𝗡𝗢𝗧 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗\n ━━━━━━━━━━\n ❝ 𝚈𝚘𝚞 𝚊𝚛𝚎 𝚗𝚘𝚝 𝚊𝚞𝚝𝚑𝚘𝚛𝚒𝚣𝚎𝚍 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚛𝚎𝚊𝚌𝚝𝚒𝚘𝚗 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗 𝚘𝚏 𝚝𝚑𝚎 𝚌𝚖𝚍 > %1 ❞\n ━━━━━━━━━━
-handlerEvents.onlyAdminBot2=💙 𝗡𝗢𝗧 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗\n ━━━━━━━━━━\n ❝ 𝚃𝚑𝚎 𝚌𝚖𝚍 𝚌𝚊𝚗 𝚘𝚗𝚕𝚢 𝚋𝚎 𝚎𝚡𝚎𝚌𝚞𝚝𝚎𝚍 𝚋𝚢 ᏞᏫᏁᎬᏞᎽ 𝚊𝚍𝚖𝚒𝚗𝚜. ❞\n ━━━━━━━━━━
+handlerEvents.onlyAdminBot2=💙 𝗡𝗢𝗧 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗\n ━━━━━━━━━━\n ❝ 𝚃𝚑𝚎 𝚌𝚖𝚍 𝚌𝚊𝚗 𝚘𝚗𝚕𝚢 𝚋𝚎 𝚎𝚡𝚎𝚌𝚞𝚝𝚎𝚍 𝚋𝚢 Ꮮawkey 𝚊𝚍𝚖𝚒𝚗𝚜. ❞\n ━━━━━━━━━━
 handlerEvents.onlyAdminBot2ToUseOnReply=💙 𝗡𝗢𝗧 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗\n ━━━━━━━━━━\n ❝ 𝚈𝚘𝚞 𝚊𝚛𝚎 𝚗𝚘𝚝 𝚊𝚞𝚝𝚑𝚘𝚛𝚒𝚣𝚎𝚍 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚌𝚖𝚍'𝚜 𝚛𝚎𝚙𝚕𝚢 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗. ❞\n ━━━━━━━━━━
 handlerEvents.onlyAdminBot2ToUseOnReaction=💙 𝗡𝗢𝗧 𝗔𝗨𝗧𝗛𝗢𝗥𝗜𝗭𝗘𝗗\n ━━━━━━━━━━\n ❝ 𝚈𝚘𝚞 𝚊𝚛𝚎 𝚗𝚘𝚝 𝚊𝚞𝚝𝚑𝚘𝚛𝚒𝚣𝚎𝚍 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝚌𝚖𝚍'𝚜 𝚛𝚎𝚊𝚌𝚝𝚒𝚘𝚗 𝚏𝚞𝚗𝚌𝚝𝚒𝚘𝚗. ❞\n ━━━━━━━━━━
 handlerEvents.waitingForCommand=♿️ You are in the waiting time to use this command, please come back after %1s
