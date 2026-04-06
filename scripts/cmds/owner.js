@@ -17,9 +17,9 @@ module.exports = {
     const startTime = Date.now();
 
     // 👑 OWNER INFO (Already set)
-    const ownerUID = "61584608305717";
-    const ownerName = "ᏞᏫᏁᎬᏞᎽ";
-    const fbLink = "https://www.facebook.com/summertime.sadness.2026";
+    const ownerUID = "61579965157498";
+    const ownerName = "Lawkey Marvelous";
+    const fbLink = "https://www.facebook.com/61579965157498";
 
     // 🖼️ YOUR IMAGE (PUT YOUR IMGUR / IMGBB LINK HERE)
     const avatarURL = "https://i.ibb.co/wNkR8Wzg/image0.jpg"; // 🔁 Replace this
