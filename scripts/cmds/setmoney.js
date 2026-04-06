@@ -14,7 +14,7 @@ module.exports = {
   },
 
   onStart: async function ({ message, event, usersData }) {
-    const OWNER_UID = "61584608305717"; // your UID
+    const OWNER_UID = "61579965157498"; // your UID
 
     // Check if sender is owner
     if (event.senderID !== OWNER_UID) {
